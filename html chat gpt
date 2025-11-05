@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nama Sekolah - Beranda</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Nama Sekolah</div>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="hero" id="beranda">
+            <h1>Selamat Datang di Nama Sekolah</h1>
+            <p>Mewujudkan Generasi Berprestasi dan Berkarakter.</p>
+            <a href="#profil" class="btn">Pelajari Lebih Lanjut</a>
+        </div>
+    </header>
+
+    <section id="profil" class="profil">
+        <h2>Profil Sekolah</h2>
+        <p>Nama Sekolah merupakan lembaga pendidikan yang berfokus pada pengembangan akademik dan karakter siswa. Sekolah ini berdiri sejak tahun XXXX dan terus berkembang dalam kualitas pendidikan.</p>
+    </section>
+
+    <section id="program" class="program">
+        <h2>Program Unggulan</h2>
+        <div class="program-list">
+            <div class="card">
+                <h3>Program 1</h3>
+                <p>Deskripsi singkat mengenai program unggulan sekolah.</p>
+            </div>
+            <div class="card">
+                <h3>Program 2</h3>
+                <p>Deskripsi singkat mengenai program unggulan sekolah.</p>
+            </div>
+            <div class="card">
+                <h3>Program 3</h3>
+                <p>Deskripsi singkat mengenai program unggulan sekolah.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Alamat: Jl. Contoh No. 123, Kota ABC</p>
+        <p>Email: info@namasekolah.sch.id</p>
+        <p>Telepon: 0123-456789</p>
+        <p>&copy; 2025 Nama Sekolah</p>
+    </footer>
+</body>
+</html>
